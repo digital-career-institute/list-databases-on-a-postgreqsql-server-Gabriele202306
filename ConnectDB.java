@@ -18,7 +18,7 @@ public class ConnectDB {
 			Class.forName("org.postgresql.Driver");
 			
 			// 1. Get a connection to a database
-			myconn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "Anahata2023!");
+			myconn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "xxxx");
 			if (myconn != null) {
 				System.out.println("Connection OK");
 			}else {
